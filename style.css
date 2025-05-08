@@ -1,0 +1,14 @@
+nac{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 10px;
+}
+nav a{
+    color: chartreuse;
+    text-decoration: none;
+    margin: 0 10px;
+}
+:root{
+    --color--principal--
+}
