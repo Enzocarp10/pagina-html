@@ -1,14 +1,52 @@
-nac{
-    display: flex;
-    justify-content: space-between;
-    background-color: brown;
-    padding: 10px;
+body{
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+    background-color: aliceblue;
+    color: #333
+}
+header{
+    background-color: #333;
+    color:aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    margin-top: 10px;
 }
 nav a{
-    color: chartreuse;
+    color: ·#fff;
     text-decoration: none;
     margin: 0 10px;
+    font-weight: bold;
 }
-:root{
-    --color--principal--
+mein{
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: top 40px;
+}
+.intro {
+    text-align: center;
+}
+.avatar{
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.proyectos .grid{
+    display:flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.card{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
