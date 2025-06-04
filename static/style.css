@@ -1,25 +1,26 @@
 body{
     font-family: 'Roboto', 'sans-serif';
     margin: 0;
-    background-color: aliceblue;
-    color: #333
+    background: #f9f9f9;
+    color: #333;
 }
+
 header{
-    background-color: #333;
-    color:aliceblue;
+    background: #333;
+    color: rgb(236, 109, 109);
     padding: 20px;
-    text-align: center;
+    text-align: center;   
 }
 nav{
     margin-top: 10px;
 }
 nav a{
-    color: ·#fff;
+    color: #586d72;
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
 }
-mein{
+main{
     padding: 40px;
     max-width: 900px;
     margin: auto;
@@ -27,26 +28,28 @@ mein{
 footer{
     text-align: center;
     padding: 20px;
-    background-color: #fff;
-    margin: top 40px;
+    background: #eee;
+    margin-top: 40px;
 }
 .intro {
     text-align: center;
 }
+
 .avatar{
-    border-radius: 50%;
-    width: 150px;
+    border-radius:50%;
+    width:150px;
     margin-bottom: 20px;
 }
 .proyectos .grid{
-    display:flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .card{
-    background-color: #fff;
+    background: white;
     padding: 20px;
     border-radius: 10px;
-    width: 250px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    width:250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
